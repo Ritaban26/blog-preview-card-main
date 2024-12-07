@@ -23,15 +23,17 @@
 
     * {
       padding: 0;
-      border: 0;
       margin: 0;
       box-sizing: border-box;
     }
 
     body {
+      height: 100vh;
       background-color: var(--Yellow);
       font-family: "Figtree", sans-serif;
       font-weight: 500, 800;
+      display: grid;
+      place-items: center;
     }
 
     .blog-card {
@@ -42,9 +44,6 @@
       border: 1px solid var(--Gray950);
       border-radius: 20px;
       box-shadow: 10px 10px 0 var(--Gray950);
-      position: absolute;
-      left: 40%;
-      top: 24%;
       width: 350px;
       height: 500px;
       padding: 30px;
@@ -95,7 +94,7 @@
 
   <main>
     <div class="blog-card">
-      <img class="brand-logo" src="/assets/images/illustration-article.svg" alt="logo">
+      <img class="brand-logo" src="assets/images/illustration-article.svg" alt="logo">
 
       <h2>Learning</h2>
 
@@ -105,7 +104,7 @@
       <p>These languages are the backbone of every website, defining structure, content, and presentation.</p>
 
       <div class="signature">
-        <img class="avatar" src="/assets/images/image-avatar.webp" alt="avatar img">
+        <img class="avatar" src="assets/images/image-avatar.webp" alt="avatar img">
         <p>Greg Hooper</p>
       </div>
 
